@@ -1,0 +1,25 @@
+/* 1. Sayfanın genel arka plan rengi (Toz Pembe) */
+body {
+    background-color: #ffe4e1; 
+}
+
+/* 2. "Merhaba Ben Melis" yazısının arka planı (Pembe) */
+.pembe-baslik {
+    background-color: #ff69b4; /* Canlı bir pembe (HotPink) */
+    color: white; /* Yazı rengi beyaz olsun ki okunsun */
+    padding: 15px;
+    border-radius: 10px; /* Kenarları yuvarlar */
+    display: inline-block; /* Arka plan sadece yazının olduğu kadar yer kaplar */
+}
+
+/* 3. Hobilerim kısmı (Lacivert arka plan, Beyaz yazı) */
+.lacivert-kutu {
+    background-color: #000080; /* Lacivert (Navy) */
+    color: #ffffff; /* Beyaz yazı */
+}
+
+/* 4. Özgeçmişim Başlığı */
+.ozgecmis-baslik {
+    color: #d63384; /* Okunabilmesi için toz pembeden biraz daha koyu, tatlı bir pembe */
+    font-weight: bold;
+}
