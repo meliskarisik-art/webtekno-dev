@@ -23,3 +23,12 @@ body {
     color: #d63384; /* Okunabilmesi için toz pembeden biraz daha koyu, tatlı bir pembe */
     font-weight: bold;
 }
+/* 6. YETENEKLER KUTUSU VE ÇUBUKLAR (2. GÜN) */
+.yetenek-kutu {
+    background-color: #f8f9fa; /* Çok uçuk gri bir arka plan */
+    border-left: 5px solid #d63384; /* Sol tarafına şık pembe bir çizgi */
+}
+
+.bg-pembe {
+    background-color: #ff69b4 !important; /* Çubukların içini pembe yapar */
+}
